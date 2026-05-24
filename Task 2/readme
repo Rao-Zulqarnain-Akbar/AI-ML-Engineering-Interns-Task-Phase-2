@@ -1,1 +1,48 @@
+## 1. Task Objective
+       The main objective of this notebook is to build a complete end-to-end machine learning pipeline
+       for predicting customer churn in a telecom company.
+  The project focuses on:
+      1-Building a reusable and production-ready ML workflow
+      2-Automating preprocessing and training using Scikit-learn Pipelines
+      3-Comparing multiple machine learning models
+      4-Performing hyperparameter tuning
+      5-Evaluating model performance using classification metrics
+      6-Exporting trained models for deployment or future inference
 
+## 2. Dataset Used
+      Telco Customer Churn Dataset
+
+## 3. Methodology and Approach
+      A. Data Loading & Exploration
+      B. Data Preprocessing
+      C. Scikit-learn Pipeline Architecture
+      D. Train-Test Split
+      E. Machine Learning Models
+      G. Model Evaluation
+        --->Accuracy
+        --->Precision
+        --->Recall
+        --->F1-score
+        --->ROC-AUC score
+
+## 4. Key Results
+     The notebook compares Logistic Regression and Random Forest.
+
+     From the workflow structure and final selection logic:
+
+    a-The best model is selected based on ROC-AUC score
+    b-In most runs, Random Forest is likely chosen as the final model
+
+## 5. Conclusion
+     end-to-end machine learning pipeline project for customer churn prediction.
+
+
+
+
+
+
+
+
+
+
+ 
