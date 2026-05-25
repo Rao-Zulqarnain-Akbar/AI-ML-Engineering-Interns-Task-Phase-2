@@ -34,7 +34,34 @@ Developed a BERT-based News Topic Classification system using the AG News datase
 6- The task demonstrated a complete NLP deep learning pipeline including training, evaluation, prediction, visualization, and deployment through a Gradio web application.
 
 
-# Task 
+# Task 3
+1- Multimodal ML pipeline successfully built combining CNN image features and tabular data via a late-fusion neural network.
+
+2- GBM baseline (tabular-only) outperformed the Multimodal CNN with MAE ~$169K and R² = 0.48, versus CNN's MAE ~$598K on the demo.
+
+3- Performance gap is expected and explainable — only 800 synthetic images and 12 epochs were used; CNNs require far more real data to generalise.
+
+4- Square footage was the strongest price predictor (r = 0.583), followed by bathrooms (0.478) and bedrooms (0.349).
+
+5- Synthetic images were a key limitation — generated from price labels, they offered no genuine visual signal for the CNN to learn from.
+
+6- The architectural objective was fully met — a working two-branch fusion model processes both modalities end-to-end with 509,761 trainable parameters.
+
+7- With real house photos and the full 15,474-sample dataset, the multimodal model is expected to outperform tabular-only approaches by capturing visual cues like property condition, style, and exterior quality.
+
+8- Log-price transformation, Huber loss, and cosine LR scheduling were effective design choices that stabilised training across the wide price range ($195K–$2M.)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
